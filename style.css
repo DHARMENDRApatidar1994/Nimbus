@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav i{
+    font-size: 2vmax;
+}
+.nav-left{
+    display: flex;
+    cursor: pointer;
+}
+.nav-middle{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.nav-middle h3{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-middle h3:hover{
+    background-color: black;
+    color: white;
+    padding: 0.5vmax 1vmax;
+    border-radius: 0.5vmax;
+}
+.nav-right{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right button{
+    padding: 0.5vmax 1vmax;
+    font-size: 1.5vmax;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.page1 .middle{
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.middle .image1 {
+    width: 20%;
+    height: 80%;
+    /* background-color: red; */
+}
+.middle .image1 img{
+    width: 30vmax;
+    height:30vmax ;
+    transform: translateX(-12vmax);
+    cursor: pointer;
+    
+}
+.middle .image2{
+    width: 30%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5vmax;
+    
+}
+.image2 h1{
+    color: rgb(228, 177, 38);
+    word-spacing: 2vmax;
+
+
+}
+.image2 .bottom{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom button{
+    font-size: 1.5vmax;
+    padding: 0.5vmax 1vmax;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.bottom .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bottom .btn{
+    background-color: rgb(228, 177, 38);
+    border: none;
+}
+.bottom .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bottom h5{
+    color: blue;
+    cursor: pointer;
+}
+
+.middle .image3 {
+    
+    
+    /* background-color: red; */
+    /* position: relative; */
+    background-image: url(yello_bg-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -2vmax;
+    /* transform: translateX(-vmax); */
+
+}
+.image3 img{
+    width: 30vmax;
+    height: 30vmax;
+    margin-top: 7.5vmax;
+    margin-left: 4vmax;
+    }
+
+    .page1 .box{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 13vmax;
+        margin-top: -7vmax;
+        
+        
+    }
+    .box .box1{
+        background-color: rgb(224, 217, 217);
+    }
+    .box .box1 i{
+        color: rgb(228, 177, 38);
+        font-size: 3vmax;
+        transform: translateY(1vmax);
+        cursor: pointer;
+
+
+        
+    }
+    .box1 h2{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .box1 p{
+        margin-left: 3.2vmax;
+    }
+    .page2{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .page2 .image-left{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        /* background-color: red; */
+        
+        
+       
+    }
+    .image-left .img1{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .img1 img{
+        width: 120%;
+        height: 150%;
+        margin-top: -20%;
+        margin-left: -10%;
+        /* z-index: -1; */
+    }
+    .image-left .img2{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .img2 img{
+        width: 120%;
+        height: 120%;
+        margin-top: -21%;
+        margin-left: -12%;
+
+    }
+    .page2 .image-left h1{
+        width: 20%;
+        font-size: 5vmax;
+        font-family: 'Moon Dance', cursive;
+        position: absolute;
+        margin-top: -8vmax;
+        margin-left: 4vmax;
+        
+    }
+    .page2 .matter-right{
+        width: 40%;
+        
+    
+        
+    }
+    .matter-right .tag{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .matter-right h2{
+        margin: 1vmax;
+    }
+    .matter-right p{
+        line-height: 2vmax;
+        margin-left: 1vmax;
+    }
+    .matter-right h4{
+        margin: 1vmax;
+    }
+    .matter-right .tag h3{
+        font-size: 2vmax;
+        color: blue;
+        cursor: pointer;
+    }
+    .matter-right .tag h5{
+        font-size: 2vmax;
+        color: rgb(228, 177, 38);
+        cursor: pointer;
+       
+    }
+    .matter-right .tag h6{
+        font-size: 2vmax;
+        color: rgb(173, 40, 156);
+        cursor: pointer;
+    }
+    .page3 {
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(189, 184, 184); */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .page3 .matter1{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1vmax;
+    }
+    
+    .graph{
+        width: 100%;
+        display: flex;
+    }
+    .graph .graph1{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .graph1 hr{
+        width: 100%;
+        height: 7%;
+        background-color: rgb(228, 177, 38);
+    }
+   
+    .matter2{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .matter2 button{
+        width: 10vmax;
+        height: 10vmax;
+        margin: 1vmax;
+        background-color: rgb(243, 233, 233);
+        border: none;
+        cursor: pointer;
+
+    }
+    .matter2 .down{
+        transform: translateY(2vmax);
+        color:rgb(228, 177, 38) ;
+    }
+    .mobile{
+        background-color:rgb(11, 163, 163);
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        transform: translateX(100%)
+        
+        
+    }
+    .mobile h3{
+        margin-bottom: 3vmax;
+        font-size: 3vmax;
+        transition: 0.5s;
+       
+    }
+    .nav-m-right{
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 3vmax;
+    }
+    .mobile .ig{
+        position: absolute;
+        top: 7%;
+        right: 10%;
+        font-size: 3vmax;
+    }
+    
+    
+
+
+    @media (max-width:600px) {
+        .page1 nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 0vmax 2vmax;
+        }
+        nav .nav-middle{
+            display: none;
+        }
+        .nav-right i{
+            display: none;}
+            .nav-right{
+                width: 25%;
+            }
+        .page1 .middle{
+           
+            flex-wrap: wrap;
+            
+        }
+        .middle .image1 {
+           
+            height: 40%;
+            
+        }
+        .middle .image1 img{
+            width: 40vmax;
+           
+            transform: translateX(-15vmax);
+            
+        }
+        .middle .image2{
+            width: 50%;
+            height: 40%;
+           margin-right: 1.5vmax;
+            margin-top: 0vmax
+            
+        }
+        .middle .image2 h2{
+            font-size: 2.2vmax;
+        }
+        .middle .image2 h1{
+            font-size: 3vmax;
+        }
+        .middle .image2 p{
+            font-size: 1.4vmax;
+        }
+        .bottom h5{
+            font-size: 1.2vmax;
+        }
+        .image2 .bottom h2{
+            font-size: 1.9vmax;
+        }
+
+       .middle .image3 {
+        height: 50%;
+        
+        
+            }
+        .image3 img{
+            width: 45vmax;
+            margin-top: 10vmax;
+            }
+            .page1 .box{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                margin-left: 0vmax;
+                margin-top: -5vmax;
+                
+                
+            }
+            .box .box1{
+                width: 30%;
+            }
+            .box1 h2{
+                font-size: 2vmax;
+            }
+            .box1 p{
+                font-size: 1.4vmax;
+            }
+            .box1 i{
+                font-size: 1vmax;
+            }
+            .page2{
+              flex-wrap: wrap;
+                
+            }
+            .page2 .image-left{
+                width: 90%;
+                height: 45%;
+                
+            }
+            .image-left .img1{
+                width: 100%;
+                height: 100%;
+                margin-top: 5vmax;
+            }
+             .img2 img{
+               
+                margin-top: -11%;
+                
+        
+            }
+            .page2 .image-left h1{
+                width: 30%;
+                margin-left: 7vmax;
+                transform: translateY(5vmax);
+                font-size: 4vmax;
+                 }
+            .page2 .matter-right{
+                width: 90%;
+                }
+                .matter-right p{
+                    font-size: 1.3vmax;
+                }
+
+                .page3 {
+                    width: 100%;
+                     flex-wrap: wrap;
+                }
+                .page3 .matter1 {
+                    width: 90%;
+                    }
+                    .page3 .matter1 h2{
+                        font-size: 2.2vmax;
+                    }
+                    .page3 .matter1 p{
+                        font-size: 1.3vmax;
+                    }
+                 .graph .graph1{
+                    width: 80%;
+                    }
+                 .matter2{
+                    width: 90%;
+                    }
+                .matter2 button{
+                    width: 20vmax;
+                    font-size: 1.7vmax;
+                     }
+                     .matter2 button h1{
+                        font-size: 3.5vmax;
+                     }
+
+                .matter2 .down{
+                    transform: translateY(0vmax);
+                    
+                }
+            
+            
+            
+        
+        
+    }
+
+
+    
+
+
